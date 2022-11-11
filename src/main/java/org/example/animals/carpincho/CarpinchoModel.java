@@ -1,11 +1,11 @@
-package org.example.animals;
+package org.example.animals.carpincho;
 
 public class Carpincho {
     private String nombre;
     private int peso;
     private int altura;
 
-    public Carpíncho(String nombre, int peso, int altura) {
+    public Carpincho(String nombre, int peso, int altura) {
         this.nombre = nombre;
         this.peso = peso;
         this.altura = altura;
