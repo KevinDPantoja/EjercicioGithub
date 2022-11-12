@@ -16,7 +16,7 @@ public class PangolinController implements  IPangolin{
     }
 
     /**
-     * Muestra los atributos del carpincho por pantalla
+     * Muestra los atributos del pangolin por pantalla
      */
     @Override
     public void mostrarPangolin() {
