@@ -1,6 +1,8 @@
 package org.example;
 
 import org.example.animals.carpincho.CarpinchoController;
+import org.example.animals.gato.Gato;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -10,6 +12,10 @@ public class Main {
         CarpinchoController carpincho = new CarpinchoController();
         carpincho.crearCarpincho("Carpincho", 54, 1.2);
         carpincho.mostrarCarpincho();
+
+        // NO BORRAR: Crea el objeto Gato y se aplica el método para mostrar los resultados.
+        Gato gato = new Gato ("persa", "2","blanco","4");
+        gato.mostrarInformacion();
 
     }
 }
