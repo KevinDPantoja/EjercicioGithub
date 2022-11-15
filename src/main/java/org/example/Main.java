@@ -6,6 +6,7 @@ import org.example.animals.caballo.Caballo;
 import org.example.animals.pangolin.PangolinController;
 import org.example.animals.oso.Oso;
 import org.example.animals.conejo.Conejo;
+import org.example.animals.suricata.Suricata;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
@@ -32,6 +33,10 @@ public class Main {
 
         Conejo conejo = new Conejo("Carlitos", "Rojo", "Macho");
         System.out.println(conejo.toString());
+
+        //Se crea el objeto Suricata y se muestra su información
+        Suricata suricata = new Suricata("Timon","Cafe", "Macho","730 g");
+        suricata.ImprimirInfoSuricata();
 
     }
 }
