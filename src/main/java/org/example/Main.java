@@ -3,6 +3,7 @@ package org.example;
 import org.example.animals.carpincho.CarpinchoController;
 import org.example.animals.gato.Gato;
 import org.example.animals.caballo.Caballo;
+import org.example.animals.pangolin.PangolinController;
 import org.example.animals.oso.Oso;
 
 public class Main {
@@ -13,6 +14,11 @@ public class Main {
         CarpinchoController carpincho = new CarpinchoController();
         carpincho.crearCarpincho("Carpincho", 54, 1.2);
         carpincho.mostrarCarpincho();
+
+        // Se crea un pangolin
+        PangolinController pangolin = new PangolinController();
+        pangolin.crearPangolin("Pangolin", 33, 165);
+        pangolin.mostrarPangolin();
 
         // NO BORRAR: Crea el objeto Gato y se aplica el método para mostrar los resultados.
         Gato gato = new Gato ("persa", "2","blanco","4");
