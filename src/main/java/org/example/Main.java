@@ -3,6 +3,7 @@ package org.example;
 import org.example.animals.carpincho.CarpinchoController;
 import org.example.animals.gato.Gato;
 import org.example.animals.caballo.Caballo;
+import org.example.animals.oso.Oso;
 
 public class Main {
     public static void main(String[] args) {
@@ -19,5 +20,8 @@ public class Main {
 
         Caballo caballo = new Caballo ("Pura sangre", "Mamifero", "500 Kg", "Negro, marrón, gris", "1.57 cm - 175cm", "20 a 25");
         caballo.MostrarCaballo();
+
+        Oso oso = new Oso("cafe", "1.65", "80 kg");
+        System.out.println(oso.toString());
     }
 }
