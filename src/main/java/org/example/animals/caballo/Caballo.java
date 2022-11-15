@@ -20,12 +20,13 @@ public class Caballo{
     
     //CONSTRUCTOR
     public Caballo (String raza, String clase, String peso, String color, String estatura, String Edad){
-        this.raza = "Pura sangre";
-        this.clase = "Mamifero";
-        this.peso = "500 Kg";
-        this.color = "Negro, marrón, gris";
-        this.estatura = "1.57 cm - 175cm";
-        this.edad = "20 a 25";
+        this.raza = raza;
+        this.clase = clase;
+        this.peso = peso;
+        this.color = color;
+        this.estatura = estatura;
+        this.edad = edad;
+    //GET Y SET
     }
 
     public String getClase() {
@@ -77,9 +78,9 @@ public class Caballo{
         this.edad = edad;
     }
 
-
+    //METODO MOSTRAR INFORMACION
     public void MostrarCaballo() {
-        System.out.println("El caballo pertenece a la raza: "+raza+"Pertenece a la clase: "+clase+" ,su peso aproximado es: "+peso+" ,su color es: "+color+" mide un aproximado de: "+estatura+" , y su edad es: "+edad);
+        System.out.println("El caballo pertenece a la raza: "+getRaza+"Pertenece a la clase: "+getClase+" ,su peso aproximado es: "+getPeso+" ,su color es: "+getColor+" mide un aproximado de: "+getEstatura+" , y su edad es: "+getEdad);
     
     }
 
