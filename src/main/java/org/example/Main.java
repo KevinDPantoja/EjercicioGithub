@@ -1,6 +1,7 @@
 package org.example;
 
 import org.example.animals.carpincho.CarpinchoController;
+import org.example.animals.pangolin.PangolinController;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,5 +12,9 @@ public class Main {
         carpincho.crearCarpincho("Carpincho", 54, 1.2);
         carpincho.mostrarCarpincho();
 
+        // Se crea un pangolin
+        PangolinController pangolin = new PangolinController();
+        pangolin.crearPangolin("Pangolin", 33, 165);
+        pangolin.mostrarPangolin();
     }
 }
