@@ -1,3 +1,4 @@
+package org.example.animals.oso;
 public class Oso {
     private String color;
     private String altura;
