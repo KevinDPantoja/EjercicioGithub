@@ -1,11 +1,11 @@
 package org.example.animals.carpincho;
 
-public class Carpincho {
+public class CarpinchoModel {
     private String nombre;
     private int peso;
-    private int altura;
+    private double altura;
 
-    public Carpincho(String nombre, int peso, int altura) {
+    public CarpinchoModel(String nombre, int peso, double altura) {
         this.nombre = nombre;
         this.peso = peso;
         this.altura = altura;
@@ -27,11 +27,11 @@ public class Carpincho {
         this.peso = peso;
     }
 
-    public int getAltura() {
+    public double getAltura() {
         return altura;
     }
 
-    public void setAltura(int altura) {
+    public void setAltura(double altura) {
         this.altura = altura;
     }
 }
