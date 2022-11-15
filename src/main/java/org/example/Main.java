@@ -2,7 +2,7 @@ package org.example;
 
 import org.example.animals.carpincho.CarpinchoController;
 import org.example.animals.gato.Gato;
-
+import org.example.animals.caballo.Caballo;
 
 public class Main {
     public static void main(String[] args) {
@@ -17,5 +17,7 @@ public class Main {
         Gato gato = new Gato ("persa", "2","blanco","4");
         gato.mostrarInformacion();
 
+        Caballo caballo = new Caballo ("Pura sangre", "Mamifero", "500 Kg", "Negro, marrón, gris", "1.57 cm - 175cm", "20 a 25");
+        caballo.MostrarCaballo();
     }
 }
