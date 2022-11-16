@@ -4,14 +4,14 @@ public class ornitorrinco implements ornitorrincoInterface{
 
     private String nombre;
 
-    private int peso;
+    private String peso;
 
     private String altura;
 
     public ornitorrinco() {
     }
 
-    public ornitorrinco(String nombre, int peso, String altura) {
+    public ornitorrinco(String nombre, String peso, String altura) {
         this.nombre = nombre;
         this.peso = peso;
         this.altura = altura;
@@ -25,11 +25,11 @@ public class ornitorrinco implements ornitorrincoInterface{
         this.nombre = nombre;
     }
 
-    public int getPeso() {
+    public String getPeso() {
         return peso;
     }
 
-    public void setPeso(int peso) {
+    public void setPeso(String peso) {
         this.peso = peso;
     }
 
