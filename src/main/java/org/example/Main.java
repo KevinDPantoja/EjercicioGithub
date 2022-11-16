@@ -1,8 +1,11 @@
 package org.example;
 
+// package org.example;
+
 import org.example.animals.carpincho.CarpinchoController;
 import org.example.animals.gato.Gato;
 import org.example.animals.caballo.Caballo;
+import org.example.animals.ornitorrinco.ornitorrinco;
 import org.example.animals.pangolin.PangolinController;
 import org.example.animals.oso.Oso;
 import org.example.animals.conejo.Conejo;
@@ -52,6 +55,9 @@ public class Main {
 
         Perro perro = new Perro ("Maracas","Doberman","25kg","1.5 años","caza y guardia.");
         perro.infoPerro();
+
+        ornitorrinco ornitorrinco = new ornitorrinco("Perry", "1,2kg","20cm");
+        ornitorrinco.mostrarOrnitorrinco();
     }
 
 }
