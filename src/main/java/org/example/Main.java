@@ -8,6 +8,7 @@ import org.example.animals.oso.Oso;
 import org.example.animals.conejo.Conejo;
 import org.example.animals.suricata.Suricata;
 import org.example.animals.tortuga.Tortuga;
+import org.example.animals.canguro.Canguro;
 
 public class Main {
     public static void main(String[] args) {
@@ -43,6 +44,10 @@ public class Main {
         //Se instacia un objeto de tipo tortuga y se setea los parametros definidos
         Tortuga tortuga = new Tortuga("Pancho", "Terrestre", 100, 250);
         tortuga.mostrarTortuga();
+
+        //Se crea objeto tipo canguro para mostrar sus caracteristicas
+        Canguro canguro = new Canguro("2","marron","1");
+        canguro.mostrarInformacion();
 
     }
 }
