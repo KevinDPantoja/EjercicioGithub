@@ -9,6 +9,7 @@ import org.example.animals.conejo.Conejo;
 import org.example.animals.suricata.Suricata;
 import org.example.animals.tortuga.Tortuga;
 import org.example.animals.canguro.Canguro;
+import org.example.animals.perro.Perro;
 
 public class Main {
     public static void main(String[] args) {
@@ -49,5 +50,8 @@ public class Main {
         Canguro canguro = new Canguro("2","marron","1");
         canguro.mostrarInformacion();
 
+        Perro perro = new Perro ("Maracas","Doberman","25kg","1.5 años","caza y guardia.");
+        perro.infoPerro();
     }
+
 }

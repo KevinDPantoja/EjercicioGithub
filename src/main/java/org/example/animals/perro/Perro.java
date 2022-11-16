@@ -9,7 +9,7 @@ public class Perro {
     private String funcionalidad;
 
     //Se crea el Metodo constructor
-    Perro(String nombre,String raza,String peso,String edad,String funcionalidad){
+    public Perro(String nombre,String raza,String peso,String edad,String funcionalidad){
         this.nombre=nombre;
         this.raza=raza;
         this.peso=peso;
@@ -54,6 +54,6 @@ public class Perro {
 
     //
     public void infoPerro(){
-        System.out.println("El perro" +nombre+ "es de raza:" +raza+ ",tiene un peso de: " +peso+ ", tiene la edad de: " +edad +", su funcionalidad principal es: " +funcionalidad);
+        System.out.println("El perro " +nombre+ " es de raza:" +raza+ ",tiene un peso de: " +peso+ ", tiene la edad de: " +edad +", su funcionalidad principal es: " +funcionalidad);
     }
 }
