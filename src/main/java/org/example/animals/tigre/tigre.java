@@ -3,11 +3,10 @@ public class tigre {
     private String genero;
     private String altura;
     private String peso;
-
     private String edad;
-
     private String longitudColmillos;
 
+    // Se agrega el constructor
     public tigre(String genero, String altura, String peso, String edad, String longitudColmillos) {
         this.genero = genero;
         this.altura = altura;
@@ -15,7 +14,7 @@ public class tigre {
         this.edad = edad;
         this.longitudColmillos = longitudColmillos;
     }
-
+    // Se agregan los setters y getters
     public String getGenero() {
         return genero;
     }
