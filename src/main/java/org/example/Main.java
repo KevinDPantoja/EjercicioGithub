@@ -1,14 +1,18 @@
 package org.example;
 
+// package org.example;
+
 import org.example.animals.carpincho.CarpinchoController;
 import org.example.animals.gato.Gato;
 import org.example.animals.caballo.Caballo;
+import org.example.animals.ornitorrinco.ornitorrinco;
 import org.example.animals.pangolin.PangolinController;
 import org.example.animals.oso.Oso;
 import org.example.animals.conejo.Conejo;
 import org.example.animals.suricata.Suricata;
 import org.example.animals.tortuga.Tortuga;
-import org.example.animals.tigre.Tigre;
+import org.example.animals.canguro.Canguro;
+import org.example.animals.perro.Perro;
 
 public class Main {
     public static void main(String[] args) {
@@ -48,5 +52,15 @@ public class Main {
         Tortuga tortuga = new Tortuga("Pancho", "Terrestre", 100, 250);
         tortuga.mostrarTortuga();
 
+        //Se crea objeto tipo canguro para mostrar sus caracteristicas
+        Canguro canguro = new Canguro("2","marron","1");
+        canguro.mostrarInformacion();
+
+        Perro perro = new Perro ("Maracas","Doberman","25kg","1.5 años","caza y guardia.");
+        perro.infoPerro();
+
+        ornitorrinco ornitorrinco = new ornitorrinco("Perry", "1,2kg","20cm");
+        ornitorrinco.mostrarOrnitorrinco();
     }
+
 }
