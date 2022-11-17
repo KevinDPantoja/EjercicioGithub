@@ -14,7 +14,7 @@ public class tigre {
         this.edad = edad;
         this.longitudColmillos = longitudColmillos;
     }
-
+    // Se agregan los setters y getters
     public String getGenero() {
         return genero;
     }
