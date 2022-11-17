@@ -7,6 +7,7 @@ public class tigre {
     private String longitudColmillos;
 
     // Se agrega el constructor
+
     public tigre(String genero, String altura, String peso, String edad, String longitudColmillos) {
         this.genero = genero;
         this.altura = altura;
@@ -61,6 +62,8 @@ public class tigre {
                 "genero ='" + genero + '\'' +
                 ", altura='" + altura + '\'' +
                 ", peso='" + peso + '\'' +
+                ", edad='" + edad + '\'' +
+                ", LongitudColmillos='" + longitudColmillos + '\'' +
                 '}';
     }
 }

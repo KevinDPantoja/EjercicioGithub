@@ -13,6 +13,7 @@ import org.example.animals.suricata.Suricata;
 import org.example.animals.tortuga.Tortuga;
 import org.example.animals.canguro.Canguro;
 import org.example.animals.perro.Perro;
+import org.example.animals.tigre.tigre;
 
 public class Main {
     public static void main(String[] args) {
@@ -38,7 +39,7 @@ public class Main {
         Oso oso = new Oso("cafe", "1.65", "80 kg");
         System.out.println(oso.toString());
         
-        Tigre tigre = new Tigre("Macho", "100cm", "260kg");
+        tigre tigre = new tigre("Macho", "100cm", "260kg", "23", "10cm");
         System.out.println(tigre.toString());
 
         Conejo conejo = new Conejo("Carlitos", "Rojo", "Macho");
