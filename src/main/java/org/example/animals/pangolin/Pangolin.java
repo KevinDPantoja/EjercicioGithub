@@ -1,16 +1,17 @@
-package org.example.animals.carpincho;
+package org.example.animals.pangolin;
 
-public class CarpinchoModel {
+public class Pangolin {
+    //se crean las variables de nombre peso y altura del pangolin
     private String nombre;
     private int peso;
-    private double altura;
-
-    public CarpinchoModel(String nombre, int peso, double altura) {
+    private int altura;
+    //se crea el constructor del pangolin
+    public Pangolin(String nombre, int peso, int altura) {
         this.nombre = nombre;
         this.peso = peso;
         this.altura = altura;
     }
-
+    //se crean los getter y setter del pangolin
     public String getNombre() {
         return nombre;
     }
@@ -27,11 +28,11 @@ public class CarpinchoModel {
         this.peso = peso;
     }
 
-    public double getAltura() {
+    public int getAltura() {
         return altura;
     }
 
-    public void setAltura(double altura) {
+    public void setAltura(int altura) {
         this.altura = altura;
     }
 }
