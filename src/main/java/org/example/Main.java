@@ -37,6 +37,9 @@ public class Main {
 
         Oso oso = new Oso("cafe", "1.65", "80 kg");
         System.out.println(oso.toString());
+        
+        Tigre tigre = new Tigre("Macho", "100cm", "260kg");
+        System.out.println(tigre.toString());
 
         Conejo conejo = new Conejo("Carlitos", "Rojo", "Macho");
         System.out.println(conejo.toString());
