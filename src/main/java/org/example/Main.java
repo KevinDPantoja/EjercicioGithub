@@ -8,6 +8,7 @@ import org.example.animals.oso.Oso;
 import org.example.animals.conejo.Conejo;
 import org.example.animals.suricata.Suricata;
 import org.example.animals.tortuga.Tortuga;
+import org.example.animals.tigre.Tigre;
 
 public class Main {
     public static void main(String[] args) {
@@ -32,6 +33,9 @@ public class Main {
 
         Oso oso = new Oso("cafe", "1.65", "80 kg");
         System.out.println(oso.toString());
+        
+        Tigre tigre = new Tigre("Macho", "100cm", "260kg");
+        System.out.println(tigre.toString());
 
         Conejo conejo = new Conejo("Carlitos", "Rojo", "Macho");
         System.out.println(conejo.toString());
