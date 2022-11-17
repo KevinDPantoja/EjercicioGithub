@@ -8,7 +8,7 @@ import org.example.animals.oso.Oso;
 import org.example.animals.conejo.Conejo;
 import org.example.animals.suricata.Suricata;
 import org.example.animals.tortuga.Tortuga;
-import org.example.animals.tigre.Tigre;
+import org.example.animals.tigre.tigre;
 
 public class Main {
     public static void main(String[] args) {
